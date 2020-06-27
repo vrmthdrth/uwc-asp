@@ -1,0 +1,14 @@
+App_Data
+App_Start
+bin
+Content
+fonts
+obj
+Properties
+Scripts
+Views
+.ico
+.asax
+.config
+.csproj
+.user
