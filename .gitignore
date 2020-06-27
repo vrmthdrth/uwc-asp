@@ -7,8 +7,11 @@ obj
 Properties
 Scripts
 Views
-*.ico
-*.asax
-*.config
-*.csproj
-*.user
+favicon.ico
+Global.asax
+packages.config
+UniversityWebChat.csproj
+UniversityWebChat.csproj.user
+Web.config
+Web.Debug.config
+Web.Release.config
