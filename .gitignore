@@ -7,8 +7,8 @@ obj
 Properties
 Scripts
 Views
-.ico
-.asax
-.config
-.csproj
-.user
+**/*.ico
+**/*.asax
+**/*.config
+**/*.csproj
+**/*.user
