@@ -1,0 +1,72 @@
+﻿@model UniversityWebChat.Models.User
+@using UniversityWebChat.Providers
+@using UniversityWebChat.Models.RolesAssignment
+
+@{
+    ViewBag.Title = "Профиль";
+}
+
+<h4>Профиль</h4>
+
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Surname)
+        </dt>
+
+        <dd>
+            @ViewBag.User.Surname
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @ViewBag.User.Name
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Patronymic)
+        </dt>
+
+        <dd>
+            @ViewBag.User.Patronymic
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+
+        <dd>
+            @ViewBag.User.Age
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @ViewBag.User.Email
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.Role)*@Статус
+        </dt>
+
+        <dd>
+            @ViewBag.UserRoleName
+        </dd>
+
+    </dl>
+
+    @{
+        if (new AppRoleProvider().GetRolesForUser(User.Identity.Name)[0] == UserRoles.ADMIN_ROLE_NAME)
+        {
+            <a class="btn btn-default" href="/Administration/SetAdminRecord">Установить новый пароль для ролей &raquo;</a>
+        }
+    }
+
+</div>

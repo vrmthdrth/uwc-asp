@@ -1,0 +1,73 @@
+2020-06-15T18:56:49.7243990Z 5    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Входные данные не являются действительной строкой Base-64, поскольку содержат символ в кодировке, отличной от Base 64, больше двух символов заполнения или недопустимый символ среди символов заполнения. 
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---
+2020-06-15T18:56:49.7274245Z 5    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Входные данные не являются действительной строкой Base-64, поскольку содержат символ в кодировке, отличной от Base 64, больше двух символов заполнения или недопустимый символ среди символов заполнения. 
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---
+2020-06-15T18:56:49.7304040Z 5    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Входные данные не являются действительной строкой Base-64, поскольку содержат символ в кодировке, отличной от Base 64, больше двух символов заполнения или недопустимый символ среди символов заполнения. 
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---
+2020-06-15T19:15:59.8311907Z 5    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Недопустимая длина строки или массива знаков Base-64.
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---
+2020-06-15T19:15:59.8471900Z 5    Critical    :                 Exception:  76 : ExtractHeader:262 - EXCEPTION: Crypteron.Internal.ErrorHandling.HeaderException: Corrupted data stream encountered during decryption. Encryption header invalid or not found within data stream. Details:System.IO.EndOfStreamException
+2020-06-15T19:20:10.5973117Z 9    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Недопустимая длина строки или массива знаков Base-64.
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---
+2020-06-15T19:20:10.6003159Z 9    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Входные данные не являются действительной строкой Base-64, поскольку содержат символ в кодировке, отличной от Base 64, больше двух символов заполнения или недопустимый символ среди символов заполнения. 
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---
+2020-06-23T09:32:52.1111048Z 6    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Входные данные не являются действительной строкой Base-64, поскольку содержат символ в кодировке, отличной от Base 64, больше двух символов заполнения или недопустимый символ среди символов заполнения. 
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---
+2020-06-23T09:32:52.1134746Z 6    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Входные данные не являются действительной строкой Base-64, поскольку содержат символ в кодировке, отличной от Base 64, больше двух символов заполнения или недопустимый символ среди символов заполнения. 
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---
+2020-06-23T09:32:52.1164755Z 6    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Входные данные не являются действительной строкой Base-64, поскольку содержат символ в кодировке, отличной от Base 64, больше двух символов заполнения или недопустимый символ среди символов заполнения. 
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---
+2020-06-23T09:32:52.1194769Z 6    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Входные данные не являются действительной строкой Base-64, поскольку содержат символ в кодировке, отличной от Base 64, больше двух символов заполнения или недопустимый символ среди символов заполнения. 
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---
+2020-06-23T09:32:52.1224756Z 6    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Входные данные не являются действительной строкой Base-64, поскольку содержат символ в кодировке, отличной от Base 64, больше двух символов заполнения или недопустимый символ среди символов заполнения. 
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---
+2020-06-23T10:13:52.2268693Z 6    Critical    :                 Exception:  76 : DecryptProperty:367 - EXCEPTION: Crypteron.Internal.ErrorHandling.CipherCoreException: Encrypted string entity/field is not base64 encoded as expected. Possible reasons: Incorrect field marked as secure or unauthorized modification to secure field ---> System.FormatException: Входные данные не являются действительной строкой Base-64, поскольку содержат символ в кодировке, отличной от Base 64, больше двух символов заполнения или недопустимый символ среди символов заполнения. 
+   в System.Convert.FromBase64_Decode(Char* startInputPtr, Int32 inputLength, Byte* startDestPtr, Int32 destLength)
+   в System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   в System.Convert.FromBase64String(String s)
+   в Crypteron.Internal.EntityEncryptor.DecryptProperty(Object entity, MemberInfo prop)
+   --- Конец трассировки внутреннего стека исключений ---

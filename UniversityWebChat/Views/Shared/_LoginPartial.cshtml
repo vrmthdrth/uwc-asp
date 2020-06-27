@@ -1,0 +1,21 @@
+﻿@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("Logout", "Account", FormMethod.Get, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @*@Html.AntiForgeryToken()*@
+
+<ul class="nav navbar-nav navbar-right">
+    <li>
+        @Html.ActionLink(User.Identity.Name, "ShowProfile", "Home")
+    </li>
+    <li>@Html.ActionLink("Выйти", "Logout", "Account")</li>
+</ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Регистрация", "Register", "Account")</li>
+        <li>@Html.ActionLink("Войти", "Login", "Account")</li>
+    </ul>
+}
